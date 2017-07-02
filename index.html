@@ -6,6 +6,19 @@
         <script src="js/visualSorting.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/visualSorting.css">
     </head>
+    
     <body>
+        <div id = "Options">
+            <h2>Sorting Method</h2>
+            <select name="Type" id="SortMethod">
+                <option value="1">Bubble</option>
+                <option value="2">Merge</option>
+                <option value="3">Quick</option>
+            </select>
+
+            <button onclick="startSort()">Start</button>
+            <button onclick="setup()">Reset</button>
+
+        </div>
     </body>
 </html>
